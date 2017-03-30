@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+
+
+
+
+.ad_gg{height: 650px; background: #83c326}
+
+.box_a {position: relative}
+.box_a .sid1{ width: 14%;position: absolute;top:10%;left: 0}
+
+.box_a .sid2{ width: 6%;position: absolute;top:10%;right:0}
+.box_a .sid3{ width: 7%;position: absolute;top:10%;right: 0;}
+.box_a .sid4{ width: 4%;position: absolute;bottom: 0;left: 0;}
+
+
+
+.box_a .sid1 img,.box_a .sid2 img,.box_a .sid3 img,.box_a .sid4 img{ width:100%}
+
+.ppa{ clear: both; margin-top: 44px}
+
+.ppa li{ border: 1px solid #e1e1e1;float: left;width: 217px; height: 222px;margin-right: 26px;}
+.ppa li .ico{ background-position: center center; background-repeat: no-repeat; height: 140px}
+.ppa li .ico1{ background-image: url( ../images/icon_03.png)}
+.ppa li .ico2{ background-image: url( ../images/icon_05.png)}
+.ppa li .ico3{ background-image: url( ../images/icon_07.png)}
+.ppa li .ico4{ background-image: url( ../images/icon_09.png)}
+.ppa li .ico5{ background-image: url( ../images/icon_11.png)}
+
+.ppa li p{ text-align:center}
+
+
+
