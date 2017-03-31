@@ -19,6 +19,7 @@
 .conte{margin: 10px  auto 42px;width:804px}
 
 .conte p{
+    color: #666;
     font-size: 16px;
     text-indent: 2em;
     line-height: 34px;
@@ -96,6 +97,7 @@
 
 
 .zhai{
+    clear: both;
     text-align: left;
     padding: 40px 0 40px 70px;
     }
@@ -107,3 +109,34 @@
     padding: 20px 0 60px;
 }
 .didian li{ margin-right: 20px;border: 1px solid #90bf2f;float:left; padding: 18px 30px;font-size: 16px;font-weight: bold;}
+
+
+.nong{}
+
+.nc_box{padding-left: 117px;line-height: 24px;float: left;color: #666;font-size: 16px;}
+.nc_box p{
+    padding: 12px 0;
+}
+.tese{}
+.tese li{
+    height: 487px;
+    padding-left: 98px;
+    width: 443px;
+    float: left;
+}
+.tese .imgts{
+    text-align: center;
+}
+.tese h3{
+    line-height: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.tese p{
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+.help{}
+.help .tt{ padding-top: 40px;font-weight: normal;font-size: 30px; color:#83c326; height: 80px; line-height: 80px; text-align: center}
