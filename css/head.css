@@ -38,9 +38,9 @@ padding-top: 12px;border-top: 1px solid #333;margin-top: 12px;}
 }
 .foot dl a{ text-decoration: none}
 .foot dt { line-height: 44px}
-.foot dd { }
+.foot dd { line-height: 26px;}
 .foot dt a{ color:#000; font-weight: bold; font-size:16px}
-.foot dd a{ color:#333}
+.foot dd a{ font-size: 14px;color:#333}
 
 .address{ font-weight: bold;line-height: 28px; margin-top: 30px; margin-bottom: 30px;clear: both; text-align: center}
 
