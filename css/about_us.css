@@ -23,13 +23,21 @@ text-align: left; }
 .yj { padding-bottom: 40px; line-height: 46px; padding-left: 60px; font-size: 20px; color: #666666 }
 .gui { color: #666; display: inline-block; font-size: 16px; width: 48%; }
 .ku { color: #666; display: inline-block; font-size: 16px; width: 48%; }
-.buy_box-r{}
-.buy_box-l{}
-.buy_tt{ height:48px; text-align:center; color:#fff; font-size:16px; background:#83c326}
+.buy_box-r{
+    border: 1px solid #e5e5e5;
+    width: 960px;
+    float: right;
+}
+.buy_box-l{
+    border: 1px solid #e5e5e5;
+    float: left;
+    width: 220px;
+}
+.buy_tt{ border-bottom: 1px solid #e5e5e5;line-height: 48px;height:48px; text-align:center; color:#fff; font-size:16px; background:#83c326}
 
 
 
-
+.img_cent{ text-align:center}
 
 
 .cp_list { clear: both; overflow: hidden; }
@@ -70,3 +78,70 @@ text-align: left; }
 .tese p { text-indent: 2em; font-size: 14px; line-height: 20px; color: #666; }
 .help { }
 .help .tt { padding-top: 40px; font-weight: normal; font-size: 30px; color: #83c326; height: 80px; line-height: 80px; text-align: center }
+.nav2{
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.nav2 li{ font-size: 16px;border-right: 1px solid #e5e5e5;text-align: center;float:left; line-height: 48px; height: 48px; width:220px;}
+.nav2 li.on{ background:#83c326; color:#fff}
+
+.buy_box-r_con{ padding:22px 0; text-align:center }
+
+
+.buy_box-l .cp_list .imgc img { width: 208px; height: 186px; }
+
+.buy_box-l .cp_list li{
+    width: auto;
+    /* height: 160px; */
+    float: none;
+}
+
+
+.news_list{}
+.news_list li{
+    position: relative;
+    border-bottom: 1px solid #d7d7d7;
+    height: 190px;
+    clear: both;
+}
+.news_list .imgc{
+    margin-top: 10px;
+    text-align: right;
+    float: right;
+    width: 276px;
+}
+.news_list .imgc img{ border: 1px solid #D7D7D7;}
+.news_list h3{
+    line-height: 50px;    
+}
+.news_list h3 a{color: #000;font-size: 20px;}
+.news_list p{
+    line-height: 24px;
+}
+.news_list .timec{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.news_list .timec img{ width:246px; 165px; border:1px solid #666}
+
+.news{
+    padding-top: 10px;
+}
+.news h3{ color: #7CB924;height:70px; line-height:70px; color#333; font-size:30px;}
+.news .tt1{ line-height: 50px;font-size:22px;color: #7CB924;}
+
+.text h4{
+    line-height: 32px;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.news_text_more{ text-indent: 0;margin: 0;display:inline-block; line-height:50px; padding: 0 24px; background: #7CB924; color:#fff ; font-size:24px;text-align: center;}
+
+.news_text_more:hover{    text-decoration: none;}
+
+
+.text_more{ padding:22px 0 40px;}
+.danwei p{ font-weight: bold;/* line-height: 32px; */color:#7CB924;}
